@@ -1,16 +1,5 @@
 # Foody_Cook_Book
 
-A new Flutter project.
+To run this project on your device start a new flutter project. Give it the name "Foody_Cook_Book" and then replace the existing lib folder and pubspec.yaml file with the one provided here.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
