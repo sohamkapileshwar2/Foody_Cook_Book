@@ -38,10 +38,17 @@ class _TabsScreenState extends State<TabsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(_pages[_selectedPageIndex]['title']),
-        actions: [_selectedPageIndex == 0 ? IconButton(icon: Icon(Icons.search , color: Theme.of(context).accentColor,), onPressed: null): IconButton(icon: Icon(Icons.star), onPressed: null)]
-      ),
+      appBar:
+          AppBar(title: Text(_pages[_selectedPageIndex]['title']), actions: [
+        _selectedPageIndex == 0
+            ? IconButton(
+                icon: Icon(
+                  Icons.search,
+                  color: Theme.of(context).accentColor,
+                ),
+                onPressed: null)
+            : IconButton(icon: Icon(Icons.star), onPressed: null)
+      ]),
       body: _pages[_selectedPageIndex]['page'],
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectPage,
